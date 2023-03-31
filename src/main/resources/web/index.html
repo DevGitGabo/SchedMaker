@@ -1,0 +1,50 @@
+<html lang="en"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAAAsSAAALEgHS3X78AAACzUlEQVR4nO3csW8SYRyH8VexxoRgYG9i0smFurRrBZOuZXK0kNo/wbVTNycT19qAcXRxrgOduxS6SGKIJLWTiShpQtoQnJpYA3eF9/fa78HzGXvl5crTFw6495wDAAAz4c6oHzYX8sP/vSO+li9PRv4tSXP3tncA1xFEDEHEEEQMQcQQRAxBxBBEDEHE3PO5cf6iGbn95P5y7BhLn/ddem1l7Pb2+kt3fng08b4lFTNEDEHEEEQMQcQQRAxBxBBEDEHEEEQMQcQQRAxBxBBEDEHEEEQMQcQQREzQIIt7u5Hbc5ulyG8L55HXV7hxcpsll9sshbyLmeM1QwbdntV+jB3/8tv3oPehxitIe30rWJRBt+fa61vuonMWZHxVXkH6jVaQB+0qRr/RMh03Cbxf1PuNlvu6+tzswbMeL2lMjrKs/qNDzbgkMV3Slspm3IMnj6femX7jy9SvSbOypM30sHfQ7c3VWYYh8E5dDEHEEEQMQcQQRAxBxBBEDEHEjHt3m7iLzzQX8re9CxMb9ekCM0QMQcQQRAxBxBBEDEHEEEQMQcQQRIzXV7jDYfg39MVi0dXrdZOx0k9X3dLBO5OxrlifssQM8ZTKZtzSwb57uPHMZDyCGEhlM+7Rxzcm5zETxNDi3q53FIIYi1uCEYcgYryOsorFYuT2crnsKpXK2O3VatXVarXIMY6Pj6fZtan0Gy139up15O/kXmwEXfPiFSTucLRQKERu73Q6Zoe0Fga/4s+8PD88ChqEpywxBBFDEDEEmVDoRaxBV+EmTXptJfbi0KExQ8QQxNjP95+8bk8QQz/efnCn2zteY/AaYuR0e8d7djjHDDFhFcM5Zsg1N/ks61+D7m/TNfUE+ctNPssKjacsMQQRQxAxBBFDEDFztaQt7uI41oewcUYtaZurw94kXByHpywxBBFDEDEEEUMQMQQRQxAxBAEAAAjhD/wKyOrgpglTAAAAAElFTkSuQmCC" type="image/x-icon">
+  <title>Facility Finder UTP</title>
+  <!-- <script type="module" crossorigin="" src="index.js"></script> -->
+  <link rel="stylesheet" href="index.css">
+  <style type="text/css" id="operaUserStyle"></style>
+  </head>
+<body>
+<div id="app">
+  <main>
+    <div class="min-h-screen flex flex-col justify-between">
+      <div>
+        <div class="h-2 bg-violet-700">
+
+        </div> <a href="https://www.utp.edu.pe/" target="_blank" rel="noreferrer" class="m-3">
+        <img src="data:image/png;base64,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" alt="logo"></a>
+      </div>
+      <div class="bg-slate-300 m-4 p-3">
+        <h1 class="text-center text-3xl font-medium text-slate-800 font-mono mb-4">Buscador de Instalaciones - UTP</h1>
+        <div class="w-max mx-auto ">
+          <div class="py-1 px-2 font-mono text-center tracking-tighter font-medium bg-emerald-500/60">¿No recuerdas tu salón?</div>
+          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAALCAYAAACprHcmAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAABrSURBVHgBpYy7CYAwFEWjAcHSxk5sLd3JBdzEFRzBUSxsrOy1cQM9QooYX5CQCwfe53C1+qaDFmb3kQpyBblwF2VvouU9RA5qflL+yY3wr+0lseYBTjhM8wUF9MqTERbYzPyKdvYJMlilxhvq7AvYASd9/gAAAABJRU5ErkJggg==" alt="flecha" class="mt-2 mx-auto ">
+        </div>
+        <div class="flex max-w-sm mx-auto">
+          <form class="font-semibold bg-slate-100 p-1 w-min h-min mx-auto my-auto border border-slate-800 rounded-lg flex" action="listar" method="get">
+            <input type="text" name="txtCodigo" class="w-32 p-2 rounded-r-lg " placeholder="U00000000">
+            <button class="bg-red-400 p-1 my-auto mx-1 w-8 h-8 rounded-lg hover:bg-red-600" type="submit">
+              <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAYAAAByDd+UAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAHuSURBVHgBtZaxS8NAFMZfHFxEFByLtuIkSqWKIOpQoZOD/4HSUXBxs5uCoyCIg5Po6iCo4OKiUgRt0S4VUcEoOLelirRVOL+jFa6vlyZNzAc/wkvfe1/ucr2LQU0khOjGJQ7GwRQI1n4qgTuQBoeGYSTJi6QRWAV54UwvYI7cCIVj4F240xbobNbfYGZxXPY0eUWQBU/gE/SCfhDW5GZADNOcI5uRRTVPLKd0rfYudTWDYF9Td2JnFgImK7oFPeRAyFsAOVafaFawyZJv7N6FpkcEfCg9CtqZwc0A+FYSTTliciHULbMHX9clxVnSInkQ6jNKr7wu4UhJKIMgeZBmlEPq721gWIlTWM5v5E2nLJ7khgNK/EgehQd+ZrcC3FBViXyWNCwqcRd5FN5ZB7tV4Yb3SjxN3jXB4gw3TCux3HGi5E3zLE7VRaJxDz0mlxLVLbKs9Dq3Srxgpq7ONtQdsD5xq0Q+SnlKhFs022A9snYFO6ygAlYcGPWBM9GoqF1hu6jfB/9kgiUwouR212ZlW1h/hsi6kJ2pbHQl/k+mcHLyiOopXxSt6RLMisaD3LGpXOK7mgZccoXHWJ2lqUEOhORRXCJU/XiS+gIPIInNuqB7WFzkfzCk3H4FM+SXLEZ6TX5KY/pDfksxlYsw8QsW6MKkWoLm4QAAAABJRU5ErkJggg==" alt="buscar">
+            </button>
+          </form>
+      <img src="img/avatar.png" alt="Avatar" class="w-24 mx-auto"></div>
+      <div class="bg-violet-600 py-2 px-4 pb-4 my-4 mx-auto max-w-xl rounded-lg">
+        <p class="text-slate-50 text-lg font-mono m-1">INFORMACIÓN:</p>
+        <div class="bg-slate-50 p-4 rounded-md">
+          <table class="mx-auto w-full font-mono border-separate border-spacing-y-1 overscroll-x-auto">
+          </table>
+        </div>
+      </div>
+        <div>
+          <p class="text-center mt-12 mx-auto text-sm w-80">Inspired by FacilityFinder from <a href="https://github.com/ManuEduardo/DevTeamUTP-FacilityFinderUTP">@DevTeam</a></p>
+        </div>
+      </div>
+      <div class="h-2 bg-violet-700"></div>
+    </div>
+  </main>
+</div>
+
+</body></html>
